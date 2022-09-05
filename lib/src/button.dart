@@ -203,7 +203,7 @@ class _ButtonState extends State<Button> with TickerProviderStateMixin {
                       ],
                     );
                   } else {
-                    return Container();
+                    return SizedBox();
                   }
                 },
               ),
